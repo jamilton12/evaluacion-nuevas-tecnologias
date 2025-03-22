@@ -23,7 +23,7 @@ pip install openpyxl
 4. Ejecuta el script Python:
 
 ```bash
-python nombre_del_script.py
+python main.py
 ```
 
 5. Ingresa los nombres y notas de 3 estudiantes cuando se te solicite.
@@ -53,12 +53,3 @@ Si deseas realizar mejoras o agregar nuevas funcionalidades, no dudes en hacer u
 ## Licencia
 
 Este proyecto es de código abierto y se distribuye bajo la [Licencia MIT](https://opensource.org/licenses/MIT).
-```
-
-### Pasos para crear el archivo `README.md`:
-
-1. Abre tu editor de texto favorito.
-2. Crea un nuevo archivo y pega el contenido proporcionado.
-3. Guarda el archivo con el nombre `README.md` en el directorio de tu proyecto.
-
-¡Con esto tendrás tu archivo README listo! Si necesitas más ayuda, no dudes en decírmelo.
