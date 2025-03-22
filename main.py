@@ -47,4 +47,4 @@ for estudiante in estudiantes:
 
 libro.save('ejerciocio3.xlsx')
 
-print("¡Ejercicio 2 guardado en ejercicio2.xlsx!")
+print("¡Ejercicio 3 guardado en ejercicio3.xlsx!")

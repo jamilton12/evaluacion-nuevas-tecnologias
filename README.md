@@ -9,26 +9,65 @@ Este proyecto crea un archivo Excel con los nombres de estudiantes y sus respect
 
 ## Instalación
 
-Para instalar la librería `openpyxl`, puedes usar `pip`:
+### 1. Clonar el repositorio
+
+Para clonar el repositorio en tu máquina local, utiliza el siguiente comando en la terminal:
 
 ```bash
-pip install openpyxl
+git clone https://github.com/jamilton12/evaluacion-nuevas-tecnologias.git
 ```
+### 2. Crear un entorno virtual
+
+Es una buena práctica usar entornos virtuales para gestionar las dependencias de tu proyecto. Aquí están los pasos para crear y activar un entorno virtual:
+
+1. **Crea un entorno virtual**:
+
+   ```bash
+   python -m venv .venv
+   ```
+
+2. **Activa el entorno virtual**:
+
+   - En **Windows**:
+   
+     ```bash
+     .venv\Scripts\activate
+     ```
+
+   - En **Mac/Linux**:
+
+     ```bash
+     source venv/bin/activate
+     ```
+
+3. **Instala las dependencias del proyecto**:
+
+   Con el entorno virtual activado, instala la librería `openpyxl` usando `pip`:
+
+   ```bash
+   pip install openpyxl
+   ```
 
 ## Uso
 
 1. Clona o descarga el proyecto en tu máquina local.
 2. Abre una terminal o consola.
-3. Navega al directorio del proyecto.
-4. Ejecuta el script Python:
+3. Navega al directorio del proyecto:
 
-```bash
-python main.py
-```
+   ```bash
+   cd evaluacion-nuevas-tecnologias
+   ```
 
-5. Ingresa los nombres y notas de 3 estudiantes cuando se te solicite.
+4. Si no has creado aún un entorno virtual, sigue los pasos de instalación anteriores.
+5. Ejecuta el script Python:
 
-El programa creará un archivo llamado `ejercicio2.xlsx` en el mismo directorio donde se ejecutó el script. El archivo Excel tendrá el siguiente formato:
+   ```bash
+   python main.py
+   ```
+
+6. Ingresa los nombres y notas de 3 estudiantes cuando se te solicite.
+
+El programa creará un archivo llamado `ejercicio3.xlsx` en el mismo directorio donde se ejecutó el script. El archivo Excel tendrá el siguiente formato:
 
 | Estudiante | Clasificación |
 |------------|---------------|
@@ -44,7 +83,7 @@ El programa creará un archivo llamado `ejercicio2.xlsx` en el mismo directorio 
    
 3. **Clasificación**: En función de la calificación, se asigna la clasificación "Bueno" si la nota es 70 o superior, y "Regular" si es inferior a 70.
    
-4. **Guardado del archivo**: El archivo Excel se guarda con el nombre `ejercicio2.xlsx`.
+4. **Guardado del archivo**: El archivo Excel se guarda con el nombre `ejercicio3.xlsx`.
 
 ## Contribuciones
 
